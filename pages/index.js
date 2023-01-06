@@ -34,7 +34,7 @@ export default function Home() {
               </h2>
               <div
                 key={11}
-                className="flex py-5 px-2 mx-8 w-[50rem] overflow-x-scroll scroll-smooth space-x-5"
+                className="flex py-5 px-2 mx-8 w-[45rem] overflow-x-scroll scroll-smooth space-x-5"
               >
                 {countCard.map((card) => {
                   return (
@@ -185,10 +185,23 @@ export default function Home() {
         <h1 className="font-[courgette] font-bold text-5xl text-center">
           Testimony
         </h1>
-        <div
-          key={3}
-          className="flex overflow-x-scroll space-x-5 bg-blue-400 w-3/4 h-full"
-        >
+        <div className="flex justify-center space-x-16 px-10">
+          <CardTestimoni
+            message="'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+          totam adipisci reprehenderit! Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit.'"
+            name="Angelina Anastasya"
+            school="Hamilton University Student"
+            result="'Accepted as Software Engineer intern at Google'"
+          />
+          <CardTestimoni
+            message="'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+          totam adipisci reprehenderit! Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit.'"
+            name="Angelina Anastasya"
+            school="Hamilton University Student"
+            result="'Accepted as Software Engineer intern at Google'"
+          />
           <CardTestimoni
             message="'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
           totam adipisci reprehenderit! Lorem ipsum dolor, sit amet consectetur
